@@ -17,4 +17,5 @@ payload = {
 }
 
 r = requests.post(url, json=payload)
+print(r.headers)
 print(r.text)
