@@ -1,0 +1,13 @@
+{
+	"name": "Francisco",
+	"email": "farevalod@gmail.com",
+	"github": "github.com/farevalod",
+	"resume": "desastre.cl/cv.txt",
+	"city": "Santiago",
+	"other": {
+		"interests": "Skiing, Mountaineering, Rock Climbing, Cooking, Graphic Design, Typography",
+		"notes": "Hice un mini script usando la lib requests de python, y nc para levantar un server e ir revisando los POST que genera",
+		"scriptsrc": "github.com/farevalod/platanus_apply",
+		"wallet": "12sPLuqb52q4B9JEgfENpuG1mLAjp9REYj"
+	}
+}

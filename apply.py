@@ -1,4 +1,4 @@
-import requests
+import requests, json
 
 url = "http://platan.us/jobs/apply"
 content_type = "application/json"
@@ -15,7 +15,7 @@ payload = {
         "BTC Wallet":"12sPLuqb52q4B9JEgfENpuG1mLAjp9REYj"
     }
 }
-
-r = requests.post(url, json=payload)
-print(r.headers)
-print(r.text)
+print json.dumps(payload)
+#r = requests.post(url, json=payload)
+#print(r.headers)
+#print(r.text)
